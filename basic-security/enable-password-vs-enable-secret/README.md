@@ -18,6 +18,7 @@ show running-config
 
 ## Output 
 enable secret 5 $1$mERr$PyIQfEZgC9xIpNiGymPTe/
+
 enable password cisco
 
 ## Conclusion
