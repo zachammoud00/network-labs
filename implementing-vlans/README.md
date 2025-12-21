@@ -6,8 +6,13 @@ This section contains hands-on networking labs focused on fundamental VLAN conce
 ## Topics Covered
 
 Multi-VLAN swtich configuration
+
 Inter-VLAN routing
+
 VLAN Trunking 
+
 Exploring native VLANs
+
 VLAN port negotiation 
+
 Voice VLAN configuration
