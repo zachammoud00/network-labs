@@ -29,7 +29,7 @@ ip ssh version 2
 
 username zac password cisco 
 
-line vty 0 15
+### line vty 0 15
 
 password cisco
 
@@ -39,7 +39,7 @@ transport input ssh
 
 exit
 
-interface vlan 1 
+### interface vlan 1 
 
 ip address 192.168.1.2 255.255.255.0
 
@@ -47,8 +47,8 @@ no shutdown
 
 exit 
 
--- configure ip on PC1 -
-- 
+-- configure ip on PC1 --- 
+
 (ensure PC1 is in the same subnet as VLAN 1) 
 
 192.168.1.3 
