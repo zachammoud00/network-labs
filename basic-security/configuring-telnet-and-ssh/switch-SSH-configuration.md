@@ -9,12 +9,11 @@ A single Cisco switch directly connected to a PC using a straight-through patch 
 
 ## Configuration 
 
-(the following is completed in global configuration mode)
-
 enable 
 
 configure terminal 
 
+### gobal configuration 
 enable secret Cisco 
 
 hostname SW1 
