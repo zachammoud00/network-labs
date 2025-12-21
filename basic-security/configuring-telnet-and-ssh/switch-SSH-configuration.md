@@ -13,7 +13,7 @@ enable
 
 configure terminal 
 
-### gobal configuration 
+### --gobal configuration-- 
 enable secret Cisco 
 
 hostname SW1 
@@ -46,7 +46,7 @@ no shutdown
 
 exit 
 
--- configure ip on PC1 --- 
+### configure ip on PC1  
 
 (ensure PC1 is in the same subnet as VLAN 1) 
 
