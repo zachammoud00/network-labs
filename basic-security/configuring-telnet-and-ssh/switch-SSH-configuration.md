@@ -15,6 +15,7 @@ enable
 configure terminal 
 enable secret Cisco 
 hostname SW1 
+
 ip domain name example.com
 crypto key generate rsa
 1024
@@ -33,7 +34,8 @@ ip address 192.168.1.2 255.255.255.0
 no shutdown 
 exit 
 
--- configure ip on PC1 -- 
+-- configure ip on PC1 -
+- 
 (ensure PC1 is in the same subnet as VLAN 1) 
 192.168.1.3 
 255.255.255.0 
