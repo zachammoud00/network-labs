@@ -28,7 +28,7 @@ Straight through ethernet cable
   enable 
   configure terminal 
 
-2. Set secret to protect privileged executive and global configuration mode (good practice).
+2. Set secret to protect privileged EXEC and global configuration mode (good practice).
 
    enable secret cisco
 
@@ -39,7 +39,7 @@ Straight through ethernet cable
    switchport trunk native vlan 100
    exit
 
-5. Confirm the port is a trunking port afer configuration, you can see the interface details from priveleged executive mode.
+5. Confirm the port is a trunking port after configuration, you can see the interface details from priveleged EXEC mode.
    
    show interfaces trunk
 
@@ -68,3 +68,7 @@ Straight through ethernet cable
 
    
 ## Conclusion 
+
+This lab demonstrated how switch trunking allows multiple VLANs to traverse a single link between switches using IEEE 802.1Q tagging. By configuring a trunk port and 
+verifying connectivity between devices in the same VLAN across different switches, the lab confirmed that trunking is required for VLAN traffic to propagate beyond a single switch. 
+This configuration forms the foundation for scalable and segmented switched networks.
