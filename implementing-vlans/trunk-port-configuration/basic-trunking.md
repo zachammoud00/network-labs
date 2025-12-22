@@ -51,7 +51,16 @@ Straight through ethernet cable
 
 6. Configure the access ports which will be assigned to specific VLANs.
 
-7. 
+   ![image alt](https://github.com/zachammoud00/images/blob/7534f2f35e63e6f647e52cdc22388e628a7440b3/device%20configuration%20.png)
+
+7. Test connectivity between PC-1 on switch 1 (VLAN 10) and PC-2 on switch 2 (VLAN 10).
+   
+   source: 192.168.10.2
+   destination: 192.168.10.4
+   
+   ping 192.168.10.4
+
+   
 
    
 ## Conclusion 
