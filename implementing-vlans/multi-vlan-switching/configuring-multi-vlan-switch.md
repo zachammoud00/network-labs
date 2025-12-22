@@ -49,7 +49,7 @@ destination: 192.168.2.3 (VLAN 2)
 
 ping 192.168.2.3
 
-(success - see image 1.0) 
+![image alt](https://github.com/zachammoud00/network-labs/blob/2c78f1e46b5c324edb593c0cd8293547517b8126/implementing-vlans/multi-vlan-switching/1.0.png)
 
 ### test connectivity with device in a different VLAN 
 source: 192.168.2.2 (VLAN 2)
