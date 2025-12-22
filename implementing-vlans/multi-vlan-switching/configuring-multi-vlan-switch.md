@@ -40,7 +40,7 @@ switchport access vlan 2
 
 ### configure each specific device (see device configuration file).
 
-![image alt](https://github.com/zachammoud00/network-labs/blob/da977a68706c3e1cf03d17597d8e99355588ea6f/implementing-vlans/multi-vlan-switching/device-config.pdf)
+![image alt](https://github.com/zachammoud00/network-labs/blob/5e0ea8b34c6898fb8bf105a87f25468a039e7c33/implementing-vlans/multi-vlan-switching/device-config.png)
 
 ### test connectivity with device within the same VLAN
 source: 192.168.2.2 (VLAN 2)
