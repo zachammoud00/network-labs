@@ -2,7 +2,7 @@
 
 ## Objective
 
-Configure 
+Configure a single switch connected to multiple devices using several VLANs. 
 
 ## Topology
 
