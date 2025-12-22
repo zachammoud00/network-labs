@@ -32,10 +32,11 @@ Straight through ethernet cable
 3. access the two ports which will be trunk on switch 1 and switch 2 and set them to trunking, in this case I have chosen GigabitEthernet 0/1 on both switches.
 
    interface GigabitEthernet 0/1
-   switchport moode trunk
+   switchport mode trunk
+   switchport trunk native vlan 100
    exit
 
-4. Confirm the port is a trunking port afer configuration, you can see the interface details from priveleged executive mode.
+5. Confirm the port is a trunking port afer configuration, you can see the interface details from priveleged executive mode.
    
    show interfaces trunk
 
@@ -43,8 +44,12 @@ Straight through ethernet cable
 
    ![image alt](https://github.com/zachammoud00/images/blob/e374d118bc70a1e24e7d07c1ca73e972c06f4fd0/trunk-int-config.png)
 
-   
+   ### important to ensure that the ports which are configured as trunk ports between the switches use the same native VLAN otherwise the switch will throw
+   ### a warning. 
 
 ### Trunking allows multiple VLANs to be transmitted over a single link between switches. 
 
+6. Configure the access ports which will be assigned to specific VLANs.
+
+   
 ## Conclusion 
