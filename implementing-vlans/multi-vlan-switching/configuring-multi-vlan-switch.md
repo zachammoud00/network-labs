@@ -58,7 +58,7 @@ destination: 192.168.3.3 (VLAN 3)
 
 ping 192.168.3.3
 
-(fail- as the two devices are not within the same VLAN - see image 2.0) 
+![image alt](https://github.com/zachammoud00/network-labs/blob/0148186c1d0bbb5a94b63938e74e7a5ad7ea1794/implementing-vlans/multi-vlan-switching/2.0.png)
 
 ## Conclusion
 
