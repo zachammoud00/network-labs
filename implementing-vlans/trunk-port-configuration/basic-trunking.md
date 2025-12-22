@@ -41,6 +41,8 @@ Straight through ethernet cable
 
    output:
 
+   ![image alt](https://github.com/zachammoud00/images/blob/e374d118bc70a1e24e7d07c1ca73e972c06f4fd0/trunk-int-config.png)
+
    
 
 ### Trunking allows multiple VLANs to be transmitted over a single link between switches. 
