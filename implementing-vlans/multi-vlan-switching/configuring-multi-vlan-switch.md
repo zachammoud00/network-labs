@@ -8,6 +8,8 @@ Configure
 
 A single Cisco switch directly connected to a several PCs using straight-through patch cables.
 
+![image alt](https://github.com/zachammoud00/network-labs/blob/b75e69895ff95b70170a766ba1873c99f436ce89/implementing-vlans/multi-vlan-switching/topology.png)
+
 ## Configuration
 
 ### enter global configuration mode 
