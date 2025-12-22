@@ -9,6 +9,9 @@ To configure a basic trunk port between two switches and test connectivity.
 The topology will be have two switches which are connected through one port, where each switch is directly connected to multiple
 devices in different VLANs. 
 
+
+![image alt](https://github.com/zachammoud00/images/blob/f73a4284b03589a5ad05ea4f00733f0db9a0c9cc/topology.png)
+
 ## Equipment 
 Cisco Packet Tracer
 Cisco IOS
@@ -60,6 +63,7 @@ Straight through ethernet cable
    
    ping 192.168.10.4
 
+![image alt](https://github.com/zachammoud00/images/blob/eec87ffd7a83264d7bc32c46b071b840868ded69/ping-success-trunking.png) 
    
 
    
