@@ -51,5 +51,7 @@ Straight through ethernet cable
 
 6. Configure the access ports which will be assigned to specific VLANs.
 
+7. 
+
    
 ## Conclusion 
