@@ -1,4 +1,4 @@
-# Basic switch trunking configuration 
+# Basic Switch Trunking Configuration 
 
 ## Objective 
 
