@@ -1,1 +1,16 @@
+# Implementing Inter-Vlan Routing 
 
+## Objective 
+
+To explore how networking devices which reside in different VLANs can send and receive data using a router. This will be a basic configuration 
+using seperate ports for each corresponding VLAN. Future labs will use 
+
+## Topology 
+
+![image alt](https://github.com/zachammoud00/images/blob/7a4e7fe6da8ff5229414af536dd06e652d2462fe/inter-vlan-routing/topology.png) 
+
+## Equipment 
+
+## Configuration 
+
+## Conclusion 
