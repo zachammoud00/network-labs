@@ -1,5 +1,0 @@
-# Exploring Auto-negotiation issues
-
-
-
-
